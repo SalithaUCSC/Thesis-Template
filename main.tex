@@ -1,0 +1,207 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[left=3.7cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[toc,page]{appendix}
+\usepackage{multirow}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{placeins}
+\usepackage{multirow}
+\usepackage[detect-all]{siunitx}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\colorlet{linecol}{black!75}
+\usepackage{forest}
+\usepackage[para]{threeparttable}
+\usepackage[export]{adjustbox}
+\graphicspath{ {images/} }
+\usepackage{times}
+\usepackage[T1]{fontenc}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\fancyhead[R]{\thepage}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\fancyhf{}
+
+\fancyhead[RE]{\chaptername~\thechapter}
+\fancyhead[LO]{\leftmark}
+\fancyhead[LE,RO]{\thepage}
+\renewcommand{\contentsname}{Table Of Contents}
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\begin{document}
+
+\pagenumbering{roman}
+\begin{titlepage}
+    \begin{center}
+        \textbf{\huge{ \fontsize{24pt}{24pt}\selectfont title}}
+        \vspace{1.5cm}
+        
+        Authors:\\
+        \begin{center}
+            \begin{tabular}{ l l }
+                 author1 & 15020101  \\ 
+                 author2 & 15020495  \\  
+                 author3 & 15020207    
+            \end{tabular}
+        \end{center}
+        \vspace{1cm}
+        Supervisor:\\
+        \vspace{0.2cm}
+        \small{supervisors}\\
+        \vspace{1cm}
+        
+        Co-Supervisor:\\
+        \vspace{0.2cm}
+        \small{co-supervisors}\\
+        \vspace{1.5cm}
+        
+        This dissertation is submitted to the University of Colombo School of Computing in partial fulfillment of the requirements for the Degree of Bachelor of Science Honours in Information Systems
+        \vspace{1.8cm}
+        
+        \includegraphics[scale=0.25]{ucsc.jpg}\\
+        \vspace{1.5cm}
+        
+        University of Colombo School of Computing\\
+        35, Reid Avenue, Colombo 07\\
+        Sri Lanka\\
+        January 2020
+    \end{center}
+\end{titlepage}
+
+\addcontentsline{toc}{chapter}{Declaration}
+\begin{center}
+\textbf{\Large{Declaration}}\thispagestyle{empty}
+\end{center}
+\vspace{0.7cm}
+\par
+% declaration 1
+\vspace{0.5cm}
+
+\noindent
+Signature:
+\vspace{0.3cm}
+\newline
+\noindent
+Date: January 6, 2020
+\vspace{2cm}
+
+% declaration 2
+\vspace{0.5cm}
+
+\noindent
+Signature:
+\vspace{0.3cm}
+\newline
+\noindent
+Date: January 6, 2020
+\vspace{2cm}
+
+% declaration 3
+\vspace{0.5cm}
+
+\noindent
+Signature:
+\vspace{0.3cm}
+\newline
+\noindent
+Date: January 6, 2020
+\vspace{2cm}
+
+% declaration 4
+\vspace{0.5cm}
+
+\noindent
+Signature:
+\vspace{0.3cm}
+\newline
+\noindent
+Date: January 6, 2020
+\clearpage
+
+\addcontentsline{toc}{chapter}{Acknowledgement}\thispagestyle{empty}
+\begin{center}
+\textbf{\Large{Acknowledgement}}
+\end{center}
+\vspace{0.7cm}
+\par
+\clearpage
+
+\addcontentsline{toc}{chapter}{Abstract}\thispagestyle{empty}
+\begin{center}
+\textbf{\Large{Abstract}}\thispagestyle{empty}
+\end{center}
+\vspace{0.7cm}
+\par
+\newpage
+
+\tableofcontents
+\addcontentsline{toc}{chapter}{Contents}
+\clearpage
+
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+%\addcontentsline{toc}{chapter}{Acronyms}
+
+\begin{tabular}{ll}
+
+\end{tabular}
+\clearpage
+
+\pagenumbering{arabic}
+
+\chapter{Introduction}
+\section{Background of the Problem}
+\section{Problem Statement}
+\section{Research Questions}
+\begin{enumerate}
+    \item 
+    \item
+\end{enumerate}
+\section{Goal \& Objectives}
+\subsection{Goal}
+\subsection{Objectives}
+\section{Significance of the Research}
+\section{Research Approach}
+\section{Limitations, Delimitations and Assumptions}
+\subsection{Limitations}
+\subsection{Delimitations}
+\subsection{Assumptions}
+\section{Contribution}
+
+\chapter{Background}
+
+\chapter{Methodology and Design}
+
+\chapter{Results and Evaluation}
+
+\chapter{Discussion}
+
+\begin{thebibliography}{00}
+\bibitem{b1}
+\bibitem{b2}
+\bibitem{b3}
+
+\end{thebibliography}
+\vspace{12pt}
+
+\begin{appendices}
+
+\end{appendices}
+\end{document}
